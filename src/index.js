@@ -1,3 +1,11 @@
+/**
+ * @author [Gimenz]
+ * @email [agaaja187@mail.com]
+ * @create date 2022-04-09 03:32:09
+ * @modify date 2022-04-09 03:32:09
+ * @desc [Un-Official Wattpad API Wrapper for NodeJS]
+ */
+
 const Stories = require('./Stories');
 const User = require('./User');
 
