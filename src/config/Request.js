@@ -20,6 +20,16 @@ class Request {
             ...options
         })
     }
+
+    /**
+     * this used to handle nextUrl
+     * @param {string} url 
+     * @returns 
+     */
+    nextHandler = async (url) => {
+        const res = await fetch(url);
+        return await res.json()
+    }
 }
 
 module.exports = Request

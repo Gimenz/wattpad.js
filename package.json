@@ -1,6 +1,6 @@
 {
   "name": "wattpad.js",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Un-Official Wattpad API Wrapper for NodeJS",
   "main": "src/index.js",
   "scripts": {
@@ -16,6 +16,11 @@
   ],
   "author": "Gimenz",
   "license": "MIT",
+  "homepage": "https://github.com/Gimenz/wattpad.js",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/Gimenz/wattpad.js.git"
+	},
   "dependencies": {
     "axios": "^0.26.1",
     "node-fetch": "^2.6.7",
