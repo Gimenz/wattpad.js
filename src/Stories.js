@@ -24,6 +24,15 @@ class Stories extends Request {
     }
 
     /**
+     * this used to handle nextUrl
+     * @param {string} url 
+     * @returns 
+     */
+    nextHandler = async (url) => {
+        return await this.get(url);
+    }
+
+    /**
      * get detail about the stories
      * @param {string|number} id story id
      * @returns 

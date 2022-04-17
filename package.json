@@ -1,6 +1,6 @@
 {
   "name": "wattpad.js",
-  "version": "0.0.2",
+  "version": "0.0.21",
   "description": "Un-Official Wattpad API Wrapper for NodeJS",
   "main": "src/index.js",
   "scripts": {

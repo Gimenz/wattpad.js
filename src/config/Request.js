@@ -26,7 +26,7 @@ class Request {
      * @param {string} url 
      * @returns 
      */
-    nextHandler = async (url) => {
+    get = async (url) => {
         const res = await fetch(url);
         return await res.json()
     }
